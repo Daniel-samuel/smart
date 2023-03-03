@@ -1,0 +1,9 @@
+query ListProduct {
+  listProduct {
+    _id
+    image
+    name
+    details
+    price
+  }
+}

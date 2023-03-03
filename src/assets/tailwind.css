@@ -1,0 +1,134 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+  .findOutMore,
+  .custom_btn {
+    @apply text-xl px-8 py-4 rounded-lg text-yellow-400 bg-transparent border-2 border-yellow-400 transition duration-500 ease-in-out shadow-[0_2px_28px_-2px] shadow-yellow-400 cursor-pointer hover:bg-yellow-400 hover:text-white hover:shadow-[0_0_28px_2px] hover:shadow-yellow-400;
+  }
+
+  .findOutMore_small_device, .custom_btn_small_device {
+    @apply text-xs px-4 py-2 rounded-lg text-yellow-400 bg-transparent border-2 border-yellow-400 transition duration-500 ease-in-out shadow-[0_2px_28px_-2px] shadow-yellow-400 cursor-pointer hover:bg-yellow-400 hover:text-white hover:shadow-[0_0_28px_2px] hover:shadow-yellow-400;
+  }
+
+  .number_us_btn {
+    @apply px-4 py-2 rounded-lg text-white bg-transparent border-2 border-white transition duration-500 ease-in-out shadow-[0_2px_28px_-2px] shadow-white cursor-pointer hover:bg-white hover:text-black hover:shadow-[0_0_28px_2px] hover:shadow-white;
+  }
+
+  .contact_us_btn {
+    @apply px-4 py-2 rounded-lg text-yellow-400 bg-transparent border-2 border-yellow-400 transition duration-500 ease-in-out shadow-[0_2px_28px_-2px] shadow-yellow-400 cursor-pointer hover:bg-yellow-400 hover:text-white hover:shadow-[0_0_28px_2px] hover:shadow-yellow-400;
+  }
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(./fonts/Poppins-SemiBold.ttf);
+}
+
+body {
+  font-family: "poppins";
+  background-color: #000;
+  color: white;
+}
+
+.font-poppins-semibold {
+  font-family: "poppins-semibold";
+}
+
+.home_cinema_bg,
+.tv_and_gaming_bg,
+.music_bg,
+.smart_home_bg {
+  position: relative;
+  background-size: cover;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  border-color: RGBA(255, 255, 255, 0);
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  box-shadow: 0px 0px 0px 0px RGBA(255, 255, 255, 0);
+  transition: box-shadow 300ms ease 0ms;
+}
+
+.home_cinema_bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 43%,
+      rgba(0, 0, 0, 0.77) 100%
+    ),
+    url(../assets/images/smart-2.jpeg);
+}
+.tv_and_gaming_bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 43%,
+      rgba(0, 0, 0, 0.77) 100%
+    ),
+    url(../assets/images/smart-5.jpeg);
+}
+.music_bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 43%,
+      rgba(0, 0, 0, 0.77) 100%
+    ),
+    url(../assets/images/smart-3.jpeg);
+}
+.smart_home_bg {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 43%,
+      rgba(0, 0, 0, 0.77) 100%
+    ),
+    url(../assets/images/smart-8.jpeg);
+}
+
+.home_cinema_bg:hover,
+.tv_and_gaming_bg:hover,
+.music_bg:hover,
+.smart_home_bg:hover {
+  box-shadow: 0px 4px 28px 2px #facc15;
+}
+
+.our-product-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/smart-24.jpeg);
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.take-a-tour-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/images/take-a-tour.png);
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.portfolio-bg {
+  background-image: linear-gradient(0deg, #000, rgba(217, 217, 217, 0)),
+    url("../assets/images/smart-5.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+query ViewProduct($viewProductId: ID) {
+  viewProduct(id: $viewProductId) {
+    _id
+    image
+    name
+    details
+    price
+  }
+}
