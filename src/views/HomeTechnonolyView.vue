@@ -40,16 +40,27 @@
       </VideoBackground>
     </div>
 
-    <div class="container mx-auto space-y-5 my-10 md:my-20">
-      <p class="text-xl md:text-5xl">Smart Home Living</p>
-      <p class="text-md md:text-2xl max-w-sm">
-        Integrate your devices throughout your living space, from lighting,
-        blinds and heating. Creating and all-in-one solution which is simple and
-        easy to use.
-      </p>
-      <button class="findOutMore_small_device md:findOutMore">
-        Find out more
-      </button>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+      <router-link
+        :to="{ name: 'product-detail', params: { id: product._id } }"
+        :key="product._id"
+        v-for="product in products"
+      >
+        <div class="h-min overflow-hidden rounded-md">
+          <img
+            class="w-full h-44 object-cover hover:scale-125 transition-all duration-1000 cursor-pointer"
+            :src="product.image"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex flex-row items-center justify-between p-4 shadow-2xl rounded-b-lg"
+        >
+          <h6>{{ product.name }}</h6>
+
+          <div>&#8358; {{ product.price }}</div>
+        </div>
+      </router-link>
     </div>
     <Footer />
   </div>
@@ -130,6 +141,31 @@ export default defineComponent({
       activeMain,
       showModal,
     };
+  },
+
+  data() {
+    return {
+      products: [],
+
+      id: null,
+    };
+  },
+
+  methods: {
+    async queryProduct() {
+      await this.$store.dispatch("query", {
+        endpoint: "listProduct",
+        storeKey: "productList",
+      });
+      this.products = this.$store.state.data.productList.filter((product) => {
+        return product.category === "SmartHome";
+      });
+      console.log(this.products, "tttttt");
+      console.log(this.$store.state.data.productList, "uuuuu");
+    },
+  },
+  created() {
+    this.queryProduct();
   },
 });
 </script>

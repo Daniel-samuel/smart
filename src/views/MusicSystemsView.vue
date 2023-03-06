@@ -27,7 +27,10 @@
                 Music Systems
               </p>
               <div class="flex justify-center">
-                <button class="custom_btn_small_device md:custom_btn" @click="showModal = true">
+                <button
+                  class="custom_btn_small_device md:custom_btn"
+                  @click="showModal = true"
+                >
                   Enquire Now
                 </button>
               </div>
@@ -36,15 +39,27 @@
         </div>
       </VideoBackground>
     </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+      <router-link
+        :to="{ name: 'product-detail', params: { id: product._id } }"
+        :key="product._id"
+        v-for="product in products"
+      >
+        <div class="h-min overflow-hidden rounded-md">
+          <img
+            class="w-full h-44 object-cover hover:scale-125 transition-all duration-1000 cursor-pointer"
+            :src="product.image"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex flex-row items-center justify-between p-4 shadow-2xl rounded-b-lg"
+        >
+          <h6>{{ product.name }}</h6>
 
-    <div class="container mx-auto space-y-5 my-10 md:my-20">
-      <p class="text-xl md:text-5xl">Music Systems</p>
-      <p class="text-md md:text-2xl max-w-sm">
-        Integrate your devices throughout your living space, from lighting,
-        blinds and heating. Creating and all-in-one solution which is simple and
-        easy to use.
-      </p>
-      <button class="findOutMore_small_device md:findOutMore">Find out more</button>
+          <div>&#8358; {{ product.price }}</div>
+        </div>
+      </router-link>
     </div>
     <Footer />
   </div>
@@ -91,7 +106,9 @@
             ></textarea>
           </div>
           <div class="flex flex-row justify-center space-x-3">
-            <button class="custom_btn_small_device md:custom_btn">Submit</button>
+            <button class="custom_btn_small_device md:custom_btn">
+              Submit
+            </button>
           </div>
         </div>
       </div>
@@ -121,6 +138,31 @@ export default defineComponent({
       activeMain,
       showModal,
     };
+  },
+
+  data() {
+    return {
+      products: [],
+
+      id: null,
+    };
+  },
+
+  methods: {
+    async queryProduct() {
+      await this.$store.dispatch("query", {
+        endpoint: "listProduct",
+        storeKey: "productList",
+      });
+      this.products = this.$store.state.data.productList.filter((product) => {
+        return product.category === "Music";
+      });
+      console.log(this.products, "tttttt");
+      console.log(this.$store.state.data.productList, "uuuuu");
+    },
+  },
+  created() {
+    this.queryProduct();
   },
 });
 </script>

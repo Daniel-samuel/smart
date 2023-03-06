@@ -67,8 +67,8 @@ function getService(link) {
 }
 
 var httplink = createHttpLink({
-  // uri: `https://turboserver-rzoozctlrq-uc.a.run.app/graphql`,
-  uri: `http://localhost:4000/graphql`,
+  uri: `https://lifestyle-technology.onrender.com/graphql`,
+  // uri: `http://localhost:4000/graphql`,
 });
 const serviceHttpLink = errorLink.concat(httplink);
 

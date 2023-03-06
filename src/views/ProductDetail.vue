@@ -8,11 +8,12 @@
     >
       <img :src="product.image" class="w-full h-64" alt="" />
     </div>
-    <div class="w-full md:w-7/12 flex flex-col space-x-3">
+    <div class="w-full md:w-7/12 flex flex-col space-y-5">
       <p class="text-yellow-400 text-3xl">Official store</p>
       <p class="text-5xl">{{ product.name }}</p>
-      <p>Brand: New</p>
-      <p class="text-2xl">Price: N {{ product.price }}</p>
+
+      <p class="text-xl">Price : {{ product.price }}</p>
+      <p class="text-md">Category : {{ product.category }}</p>
     </div>
   </div>
   <div class="container mx-auto my-10">

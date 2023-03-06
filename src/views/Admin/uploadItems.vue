@@ -48,13 +48,23 @@
         </div>
         <div class="w-full">
           <label for="name" class="text-sm">Category</label>
-          <input
+          <select
             class="w-full text-sm text-black border rounded-[4px] px-3 py-2 focus:outline-none focus:border-yellow-400 focus:ring-0"
             type="text"
             name=""
             id=""
             placeholder="category"
-          />
+            v-model="args.category"
+          >
+            <option
+              :value="category.value"
+              v-for="category in categories"
+              :key="category.value"
+              class="pt-6"
+            >
+              {{ category.label }}
+            </option>
+          </select>
         </div>
       </div>
 
@@ -141,11 +151,31 @@ export default {
 
   data() {
     return {
+      categories: [
+        {
+          label: "Home Cinema",
+          value: "HomeCinema",
+        },
+        {
+          label: "Tv and Gaming",
+          value: "TVGaming",
+        },
+        {
+          label: "Music",
+          value: "Music",
+        },
+        {
+          label: "Smart Home Technology",
+          value: "SmartHome",
+        },
+      ],
+
       args: {
         image: "",
         name: "",
         details: "",
         price: "",
+        category: "",
       },
     };
   },
@@ -153,15 +183,20 @@ export default {
   methods: {
     handleFileUpload(event) {
       this.uploadFile = event.target.files[0];
-      console.log(this.uploadFile, "file");
       const reader = new FileReader();
+      reader.readAsDataURL(this.uploadFile);
+      console.log(this.uploadFile, "file");
+      // const reader = new FileReader();
       reader.onload = () => {
         this.args.image = reader.result.split(",")[1];
+
+        // console.log(encodedData, "rttyyuu");
       };
-      reader.readAsDataURL(this.uploadFile);
-      console.log(this.uploadFile), "happy";
       const encodedData = btoa(this.args.image);
-      console.log(encodedData, "rttyyuu");
+      // reader.readAsDataURL(this.uploadFile);
+      // console.log(this.uploadFile), "happy";
+      // const encodedData = btoa(this.args.image);
+      // console.log(encodedData, "rttyyuu");
     },
 
     async create() {

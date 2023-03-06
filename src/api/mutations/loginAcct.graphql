@@ -1,0 +1,8 @@
+mutation Mutation($input: LoginInput) {
+  loginAcct(input: $input) {
+    password
+    name
+    id
+    email
+  }
+}
