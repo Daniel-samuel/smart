@@ -15,7 +15,6 @@
     "apollo-link-error": "^1.1.13",
     "apollo-link-http": "^1.5.17",
     "autoprefixer": "^10",
-    
     "core-js": "^3.8.3",
     "graphql": "^15.8.0",
     "graphql-tag": "^2.12.6",

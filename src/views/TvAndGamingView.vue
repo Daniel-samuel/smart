@@ -40,7 +40,60 @@
       </VideoBackground>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+    <div class="space-y-4 md:space-y-20">
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/tv-and-gaming-img-3.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Dramatically </span><span>Changed </span>
+          </div>
+          <p class="max-w-md">
+            With a well-designed setup, you can now celebrate what the studios
+            intended and enjoy all your favorite streaming content.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/tv-and-gaming-img-2.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Thoroughly</span><span>Transmuted</span>
+          </div>
+          <p class="max-w-md">
+            Additionally, video game-inspired TV shows and movies are becoming
+            increasingly popular, appealing to both gamers and non-gamers alike.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/tv-and-gaming-img-1.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Totally </span><span>Overhauled</span>
+          </div>
+          <p class="max-w-md">
+            These modern TVs come equipped with smart features that allow for
+            easy integration with gaming consoles and streaming services. This
+            includes features like built-in Wi-Fi, app stores, and voice
+            control, making it easier for users to access their favorite games
+            and streaming platforms.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       <router-link
         :to="{ name: 'product-detail', params: { id: product._id } }"
         :key="product._id"
@@ -61,7 +114,7 @@
           <div>&#8358; {{ product.price }}</div>
         </div>
       </router-link>
-    </div>
+    </div> -->
     <Footer />
   </div>
   <div>

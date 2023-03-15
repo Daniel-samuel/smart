@@ -40,7 +40,61 @@
       </VideoBackground>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+    <div class="space-y-4 md:space-y-20">
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/smart-home-2.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Intelligent </span><span>Home Automation</span>
+          </div>
+          <p class="max-w-md">
+            The use of this technology is to automate and control various
+            systems and devices in a home, such as lighting, heating, air
+            conditioning, security, entertainment, and other appliances.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/smart-home-1.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Smart </span><span>Home Technology</span>
+          </div>
+          <p class="max-w-md">
+            It involves the integration of these devices and systems into a
+            central hub or network, which can be controlled remotely using a
+            smartphone, tablet, or computer.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/smart-home-3.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Intelligent </span><span>Home Devices</span>
+          </div>
+          <p class="max-w-md">
+            Intelligent home automation provides a wide range of benefits and is
+            becoming increasingly popular as more homeowners seek to streamline
+            and optimize their home systems and devices for maximum convenience
+            and efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       <router-link
         :to="{ name: 'product-detail', params: { id: product._id } }"
         :key="product._id"
@@ -61,7 +115,7 @@
           <div>&#8358; {{ product.price }}</div>
         </div>
       </router-link>
-    </div>
+    </div> -->
     <Footer />
   </div>
   <div>

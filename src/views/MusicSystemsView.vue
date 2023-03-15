@@ -39,7 +39,61 @@
         </div>
       </VideoBackground>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+
+    <div class="space-y-4 md:space-y-20">
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/music-2.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Offering Dynamic </span><span>&amp; Authentic Sound </span>
+          </div>
+          <p class="max-w-md">
+            These authentic sound has a wide frequency response, meaning that it
+            is capable of reproducing both low and high frequencies accurately.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/music-3.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Generating Powerful</span><span>&amp; Genuine Audio</span>
+          </div>
+          <p class="max-w-md">
+            A system that offers dynamic and authentic sound produces clear and
+            detailed sound that is free from distortion or muddiness. This
+            ensures that the listener can hear every note, every word, and every
+            sound effect with clarity and precision.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/music-1.jpeg"
+          alt=""
+          class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Producing Potent</span><span>&amp; Authentic Sound</span>
+          </div>
+          <p class="max-w-md">
+            This makes it easier for the listener to suspend their disbelief and
+            become fully immersed in the audio experience, whether it is music,
+            movies, or games.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       <router-link
         :to="{ name: 'product-detail', params: { id: product._id } }"
         :key="product._id"
@@ -60,7 +114,7 @@
           <div>&#8358; {{ product.price }}</div>
         </div>
       </router-link>
-    </div>
+    </div> -->
     <Footer />
   </div>
   <div>

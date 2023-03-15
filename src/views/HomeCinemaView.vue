@@ -40,7 +40,60 @@
       </VideoBackground>
     </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+    <div class="space-y-4 md:space-y-20">
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/cinema_view.png"
+          alt=""
+          class="opacity-40 w-full h-80 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Home Theater </span><span>Packages</span>
+          </div>
+          <p class="max-w-md text-xs md:text-base">
+            We offer a range Home Theater for you to enjoy the benefits of a
+            professional-grade without having to research and purchase each
+            component separately.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/cinema_view_2.jpeg"
+          alt=""
+          class="opacity-40 w-full h-80 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Entertainment </span><span>Room Packages</span>
+          </div>
+          <p class="max-w-md text-xs md:text-base">
+            They can be tailored to fit a variety of room sizes and budgets,
+            with options ranging from basic packages to more advanced packages
+            with features such as 4K resolution and Dolby Atmos surround sound.
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto w-8/12 relative">
+        <img
+          src="../assets/images/cinema_view.png"
+          alt=""
+          class="opacity-40 w-full h-80 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+        />
+        <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+          <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+            <span> Movie Theater</span><span>Room Packages</span>
+          </div>
+          <p class="max-w-md text-xs md:text-base">
+            It is also a dedicated space for leisure activities, such as watching movies,
+            playing games, or listening to music. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       <router-link
         :to="{ name: 'product-detail', params: { id: product._id } }"
         :key="product._id"
@@ -61,7 +114,7 @@
           <div>&#8358; {{ product.price }}</div>
         </div>
       </router-link>
-    </div>
+    </div> -->
     <Footer />
   </div>
   <div>
