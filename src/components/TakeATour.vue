@@ -76,7 +76,7 @@
           </h2>
           <p class="text-center md:text-left max-w-md text-md md:text-lg">
             This Controller Audio is a British manufacturer of Hi-Fi speaker
-            systems, offers quality stereo home cinema systems, multi-room audio
+            systems, offers quality stereo Residential systems, multi-room audio
             setups, bluetooth, and more.
           </p>
         </div>

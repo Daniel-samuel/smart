@@ -24,7 +24,7 @@
               <p
                 class="font-poppins-semibold text-2xl md:text-7xl text-white text-center"
               >
-                Home Cinema &amp; Media Rooms
+                Residential Facilities
               </p>
               <div class="flex justify-center">
                 <button
@@ -41,7 +41,7 @@
     </div>
 
     <div class="space-y-4 md:space-y-20">
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/cinema_view.png"
           alt=""
@@ -52,13 +52,13 @@
             <span> Home Theater </span><span>Packages</span>
           </div>
           <p class="max-w-md text-xs md:text-base">
-            We offer a range Home Theater for you to enjoy the benefits of a
+            We offer a range Home Theater for you to enjoy a
             professional-grade without having to research and purchase each
             component separately.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/cinema_view_2.jpeg"
           alt=""
@@ -75,7 +75,7 @@
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/cinema_view.png"
           alt=""

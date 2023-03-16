@@ -24,7 +24,7 @@
               <p
                 class="font-poppins-semibold text-3xl md:text-7xl text-white text-center"
               >
-                Tv &amp; Gaming
+                Hospitality Provision
               </p>
               <div class="flex justify-center">
                 <button
@@ -41,7 +41,7 @@
     </div>
 
     <div class="space-y-4 md:space-y-20">
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/tv-and-gaming-img-3.jpeg"
           alt=""
@@ -49,15 +49,16 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Dramatically </span><span>Changed </span>
+            <span> Customer </span><span>Service Delivery </span>
           </div>
           <p class="max-w-md">
-            With a well-designed setup, you can now celebrate what the studios
-            intended and enjoy all your favorite streaming content.
+            We provide a positive and memorable experience for guests or
+            customers, with an emphasis on personalized service, attention to
+            detail, and creating a warm and welcoming atmosphere.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/tv-and-gaming-img-2.jpeg"
           alt=""
@@ -65,15 +66,16 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Thoroughly</span><span>Transmuted</span>
+            <span> Guest </span><span>Experience Delivery</span>
           </div>
           <p class="max-w-md">
-            Additionally, video game-inspired TV shows and movies are becoming
-            increasingly popular, appealing to both gamers and non-gamers alike.
+            It also include businesses such as hotels, restaurants, bars, cafes,
+            resorts, and other establishments that provide accommodation, food,
+            and beverage services.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/tv-and-gaming-img-1.jpeg"
           alt=""
@@ -81,14 +83,13 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Totally </span><span>Overhauled</span>
+            <span> Front-of-House </span><span>Operations</span>
           </div>
           <p class="max-w-md">
-            These modern TVs come equipped with smart features that allow for
-            easy integration with gaming consoles and streaming services. This
-            includes features like built-in Wi-Fi, app stores, and voice
-            control, making it easier for users to access their favorite games
-            and streaming platforms.
+            Our Professionals are trained to provide a high level of customer
+            service, including anticipating and meeting the needs of guests,
+            responding to complaints or concerns, and maintaining a clean and
+            inviting environment.
           </p>
         </div>
       </div>

@@ -24,7 +24,7 @@
               <p
                 class="font-poppins-semibold text-3xl md:text-7xl text-white text-center"
               >
-                Smart Home Living
+                Consulting Assistance
               </p>
               <div class="flex justify-center">
                 <button
@@ -41,7 +41,7 @@
     </div>
 
     <div class="space-y-4 md:space-y-20">
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/smart-home-2.jpeg"
           alt=""
@@ -49,16 +49,17 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Intelligent </span><span>Home Automation</span>
+            <span> Advisory Support</span>
           </div>
           <p class="max-w-md">
-            The use of this technology is to automate and control various
-            systems and devices in a home, such as lighting, heating, air
-            conditioning, security, entertainment, and other appliances.
+            We provided in a wide range of areas, including management, finance,
+            marketing, human resources, technology, and more. We work
+            independently with businesses, governments, non-profits, and other
+            organizations.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/smart-home-1.jpeg"
           alt=""
@@ -66,16 +67,18 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Smart </span><span>Home Technology</span>
+            <span> Guidance Assistance</span>
           </div>
           <p class="max-w-md">
-            It involves the integration of these devices and systems into a
-            central hub or network, which can be controlled remotely using a
-            smartphone, tablet, or computer.
+            We also require a deep understanding of your business
+            and industry, as well as strong analytical, problem-solving, and
+            communication skills. We able to work
+            collaboratively with clients, build relationships, and deliver
+            measurable results.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/smart-home-3.jpeg"
           alt=""
@@ -83,13 +86,13 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Intelligent </span><span>Home Devices</span>
+            <span> Directional Aid</span>
           </div>
           <p class="max-w-md">
-            Intelligent home automation provides a wide range of benefits and is
-            becoming increasingly popular as more homeowners seek to streamline
-            and optimize their home systems and devices for maximum convenience
-            and efficiency.
+            Part of our purpose is to assist clients in solving complex
+            problems, improving performance, and achieving their business
+            objectives. Our work with clients is to identify issues,
+            analyze data, develop solutions, and implement strategies.
           </p>
         </div>
       </div>

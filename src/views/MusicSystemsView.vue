@@ -24,7 +24,7 @@
               <p
                 class="font-poppins-semibold text-3xl md:text-7xl text-white text-center"
               >
-                Music Systems
+                Commercial &amp; Corporate
               </p>
               <div class="flex justify-center">
                 <button
@@ -41,7 +41,7 @@
     </div>
 
     <div class="space-y-4 md:space-y-20">
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/music-2.jpeg"
           alt=""
@@ -49,15 +49,17 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Offering Dynamic </span><span>&amp; Authentic Sound </span>
+            <span> Commercial Enterprise</span>
           </div>
           <p class="max-w-md">
-            These authentic sound has a wide frequency response, meaning that it
-            is capable of reproducing both low and high frequencies accurately.
+            The commercial sector includes businesses such as retail stores,
+            wholesalers, and service providers, while the corporate sector
+            includes large corporations, conglomerates, and multinational
+            companies.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/music-3.jpeg"
           alt=""
@@ -65,17 +67,17 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Generating Powerful</span><span>&amp; Genuine Audio</span>
+            <span> Corporate World</span>
           </div>
           <p class="max-w-md">
-            A system that offers dynamic and authentic sound produces clear and
-            detailed sound that is free from distortion or muddiness. This
-            ensures that the listener can hear every note, every word, and every
-            sound effect with clarity and precision.
+            It involves in various activities, such as manufacturing,
+            distribution, marketing, and sales. These businesses may also engage
+            in strategic planning, research and development, and mergers and
+            acquisitions to expand their operations and market share.
           </p>
         </div>
       </div>
-      <div class="container mx-auto w-8/12 relative">
+      <div class="container mx-auto md:w-8/12 relative">
         <img
           src="../assets/images/music-1.jpeg"
           alt=""
@@ -83,12 +85,12 @@
         />
         <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
           <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
-            <span> Producing Potent</span><span>&amp; Authentic Sound</span>
+            <span> Commercial Ventures</span>
           </div>
           <p class="max-w-md">
-            This makes it easier for the listener to suspend their disbelief and
-            become fully immersed in the audio experience, whether it is music,
-            movies, or games.
+            Commercial and corporate entities play an important role in the
+            global economy, creating jobs, generating tax revenues, and
+            contributing to economic growth and development.
           </p>
         </div>
       </div>

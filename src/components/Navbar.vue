@@ -18,13 +18,13 @@
               <span
                 class="pr-1 font-semibold flex-1"
                 :class="[
-                  $route.path.includes('/home-cinema')
+                  $route.path.includes('/residential')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/tv-and-gaming')
+                    : $route.path.includes('/hospitality')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/music-systems')
+                    : $route.path.includes('/commercial-and-corporate')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/home-technology')
+                    : $route.path.includes('/consulting')
                     ? 'text-yellow-400'
                     : '',
                 ]"
@@ -48,24 +48,24 @@
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/home-cinema">Home Cinema</router-link>
+                <router-link to="/residential">Residential</router-link>
               </li>
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/tv-and-gaming"> Tv &amp; Gaming</router-link>
+                <router-link to="/hospitality">Hospitality</router-link>
               </li>
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/music-systems"> Music</router-link>
+                <router-link to="/commercial-and-corporate">Commercial &amp; Corporate</router-link>
               </li>
 
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/home-technology">
-                  Smart Home Technology</router-link
+                <router-link to="/consulting">
+                  Consulting</router-link
                 >
               </li>
             </ul>
@@ -139,13 +139,13 @@
               <span
                 class="pr-1 font-semibold flex-1"
                 :class="[
-                  $route.path.includes('/home-cinema')
+                  $route.path.includes('/residential')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/tv-and-gaming')
+                    : $route.path.includes('/hospitality')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/music-systems')
+                    : $route.path.includes('/commercial-and-corporate')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/home-technology')
+                    : $route.path.includes('/consulting')
                     ? 'text-yellow-400'
                     : '',
                 ]"
@@ -164,29 +164,29 @@
               </span>
             </button>
             <ul
-              class="z-20 bg-white lg:bg-transparent shadow-2xl rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 space-y-2 p-3 ease-in-out origin-top z-30"
+              class="z-20 bg-white lg:bg-transparent shadow-2xl rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 space-y-2 p-3 ease-in-out origin-top"
             >
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/home-cinema">Home Cinema</router-link>
+                <router-link to="/residential">Residential</router-link>
               </li>
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/tv-and-gaming"> Tv &amp; Gaming</router-link>
+                <router-link to="/hospitality"> Hospitality</router-link>
               </li>
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/music-systems"> Music</router-link>
+                <router-link to="/commercial-and-corporate"> Commercial &amp; Corporate</router-link>
               </li>
 
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/home-technology">
-                  Smart Home Technology</router-link
+                <router-link to="/consulting">
+                  Consulting</router-link
                 >
               </li>
             </ul>
