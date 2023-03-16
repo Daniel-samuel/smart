@@ -56,18 +56,18 @@ const routes = [
     component: ProductDetail,
   },
   {
-    path: "/home-cinema",
-    name: "home-cinema",
+    path: "/residential",
+    name: "residential",
     component: HomeCinemaView,
   },
   {
-    path: "/music-systems",
-    name: "music-systems",
+    path: "/commercial",
+    name: "commercial",
     component: MusicSystemsView,
   },
   {
-    path: "/tv-and-gaming",
-    name: "tv-and-gaming",
+    path: "/hospitality",
+    name: "hospitality",
     component: TvAndGamingView,
   },
   {
@@ -76,8 +76,8 @@ const routes = [
     component: PartnerShipView,
   },
   {
-    path: "/home-technology",
-    name: "home-technology",
+    path: "/consulting",
+    name: "consulting",
     component: HomeTechnonolyView,
   },
   {

@@ -107,7 +107,7 @@
           <div
             class="container mx-auto grid md:grid-cols-2 xl:grid-cols-4 gap-10 md:gap-20 h-[1000px] md:h-64"
           >
-            <router-link to="/home-cinema" class="home_cinema_bg mx-8 md:mx-0">
+            <router-link to="/residential" class="home_cinema_bg mx-8 md:mx-0">
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
@@ -115,7 +115,7 @@
               </p>
             </router-link>
             <router-link
-              to="/tv-and-gaming"
+              to="/hospitality"
               class="tv_and_gaming_bg mx-8 md:mx-0"
             >
               <p
@@ -124,17 +124,14 @@
                 Tv &amp; Gaming
               </p>
             </router-link>
-            <router-link to="/music-systems" class="music_bg mx-8 md:mx-0">
+            <router-link to="/commercial" class="music_bg mx-8 md:mx-0">
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
                 Music
               </p>
             </router-link>
-            <router-link
-              to="/home-technology"
-              class="smart_home_bg mx-8 md:mx-0"
-            >
+            <router-link to="/consulting" class="smart_home_bg mx-8 md:mx-0">
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
@@ -147,7 +144,7 @@
 
       <!-- News -->
       <div class="container mx-auto">
-        <div class="relative transition duration-1000 ease-in-out ">
+        <div class="relative transition duration-1000 ease-in-out">
           <img
             src="../assets/images/istockphoto-1140016975-612x612.jpeg"
             class="rounded-xl w-full h-full md:h-[500px] object-cover"
