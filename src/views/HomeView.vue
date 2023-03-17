@@ -111,7 +111,7 @@
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
-                Home Cinema
+                Residential
               </p>
             </router-link>
             <router-link
@@ -121,21 +121,24 @@
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
-                Tv &amp; Gaming
+                Hospitality
               </p>
             </router-link>
-            <router-link to="/commercial" class="music_bg mx-8 md:mx-0">
+            <router-link
+              to="/commercial-and-corporate-and-corporate"
+              class="music_bg mx-8 md:mx-0"
+            >
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
-                Music
+                commercial-and-corporate &amp; Corporate
               </p>
             </router-link>
             <router-link to="/consulting" class="smart_home_bg mx-8 md:mx-0">
               <p
                 class="absolute bottom-8 text-white font-bold text-2xl font-poppins-semibold"
               >
-                Smart Home Technology
+                Consulting
               </p>
             </router-link>
           </div>

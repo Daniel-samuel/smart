@@ -4,7 +4,7 @@ query ListProduct {
     image
     name
     details
-    price
+  
     category
   }
 }

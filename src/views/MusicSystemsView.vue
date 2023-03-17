@@ -24,7 +24,7 @@
               <p
                 class="font-poppins-semibold text-3xl md:text-7xl text-white text-center"
               >
-                Music Systems
+                Commercial &amp; Corporate
               </p>
               <div class="flex justify-center">
                 <button
@@ -39,7 +39,31 @@
         </div>
       </VideoBackground>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
+
+    <div class="space-y-4 md:space-y-20">
+      <router-link
+        :to="{ name: 'product-detail', params: { id: product._id } }"
+        :key="product._id"
+        v-for="product in products"
+      >
+        <div class="container mx-auto md:w-8/12 relative my-4 md:my-20">
+          <img
+            :src="product.image"
+            alt=""
+            class="opacity-40 w-full h-96 object-cover rounded-2xl hover:border-2 hover:border-yellow-400"
+          />
+          <div class="absolute top-1/4 px-2 md:px-20 rounded-lg space-y-3">
+            <div class="flex flex-col space-y-2 font-bold text-3xl md:text-5xl">
+              <span> {{ product.name }}</span>
+            </div>
+            <p class="max-w-md">
+              {{ product.details }}
+            </p>
+          </div>
+        </div>
+      </router-link>
+    </div>
+    <!-- <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6">
       <router-link
         :to="{ name: 'product-detail', params: { id: product._id } }"
         :key="product._id"
@@ -60,7 +84,7 @@
           <div>&#8358; {{ product.price }}</div>
         </div>
       </router-link>
-    </div>
+    </div> -->
     <Footer />
   </div>
   <div>
@@ -155,7 +179,7 @@ export default defineComponent({
         storeKey: "productList",
       });
       this.products = this.$store.state.data.productList.filter((product) => {
-        return product.category === "Music";
+        return product.category === "CommercialCorporate";
       });
       console.log(this.products, "tttttt");
       console.log(this.$store.state.data.productList, "uuuuu");

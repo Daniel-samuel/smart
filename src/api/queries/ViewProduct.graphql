@@ -4,6 +4,6 @@ query ViewProduct($viewProductId: ID) {
     image
     name
     details
-    price
+  
   }
 }

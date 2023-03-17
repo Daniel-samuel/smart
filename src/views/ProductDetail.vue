@@ -12,7 +12,6 @@
       <p class="text-yellow-400 text-3xl">Official store</p>
       <p class="text-5xl">{{ product.name }}</p>
 
-      <p class="text-xl">Price : {{ product.price }}</p>
       <p class="text-md">Category : {{ product.category }}</p>
     </div>
   </div>

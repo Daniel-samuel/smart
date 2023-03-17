@@ -61,13 +61,13 @@ const routes = [
     component: HomeCinemaView,
   },
   {
-    path: "/commercial",
-    name: "commercial",
+    path: "/commercial-and-corporate",
+    name: "commercial-and-corporate",
     component: MusicSystemsView,
   },
   {
     path: "/hospitality",
-    name: "hospitality",
+    name: "tv-and-gaming",
     component: TvAndGamingView,
   },
   {

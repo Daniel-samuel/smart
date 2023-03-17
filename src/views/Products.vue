@@ -26,8 +26,6 @@
             class="flex flex-row items-center justify-between p-4 shadow-2xl rounded-b-lg"
           >
             <h6>{{ product.name }}</h6>
-
-            <div>&#8358; {{ product.price }}</div>
           </div>
         </router-link>
       </div>

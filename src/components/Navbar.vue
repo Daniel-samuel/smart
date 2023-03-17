@@ -22,7 +22,7 @@
                     ? 'text-yellow-400'
                     : $route.path.includes('/hospitality')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/commercial')
+                    : $route.path.includes('/commercial-and-corporate')
                     ? 'text-yellow-400'
                     : $route.path.includes('/consulting')
                     ? 'text-yellow-400'
@@ -53,13 +53,13 @@
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/hospitality"> Hospitality</router-link>
+                <router-link to="/hospitality">Hospitality</router-link>
               </li>
               <li
                 class="text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/commercial">
-                  Commericial/Corporate</router-link
+                <router-link to="/commercial-and-corporate"
+                  >Commercial &amp; Corporate</router-link
                 >
               </li>
 
@@ -70,13 +70,13 @@
               </li>
             </ul>
           </div>
-          <router-link
+          <!-- <router-link
             v-if="activeGallery"
             to="/products"
             :class="[$route.path.includes('/products') && 'text-yellow-400']"
           >
             Gallery</router-link
-          >
+          > -->
           <router-link
             v-if="activeTakeATour"
             to="/take-a-tour"
@@ -143,7 +143,7 @@
                     ? 'text-yellow-400'
                     : $route.path.includes('/hospitality')
                     ? 'text-yellow-400'
-                    : $route.path.includes('/commercial')
+                    : $route.path.includes('/commercial-and-corporate')
                     ? 'text-yellow-400'
                     : $route.path.includes('/consulting')
                     ? 'text-yellow-400'
@@ -164,7 +164,7 @@
               </span>
             </button>
             <ul
-              class="z-20 bg-white lg:bg-transparent shadow-2xl rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 space-y-2 p-3 ease-in-out origin-top z-30"
+              class="z-20 bg-white lg:bg-transparent shadow-2xl rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 space-y-2 p-3 ease-in-out origin-top"
             >
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
@@ -179,8 +179,8 @@
               <li
                 class="text-black lg:text-white rounded-sm px-3 py-1 hover:bg-black hover:text-yellow-400"
               >
-                <router-link to="/commercial">
-                  Commericial/Corporate</router-link
+                <router-link to="/commercial-and-corporate">
+                  Commercial &amp; Corporate</router-link
                 >
               </li>
 

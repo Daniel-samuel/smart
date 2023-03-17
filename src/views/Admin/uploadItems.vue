@@ -15,7 +15,7 @@
         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 my-12"
       >
         <div class="w-full">
-          <label for="name" class="text-sm">Namesss</label>
+          <label for="name" class="text-sm">Header</label>
           <input
             class="w-full text-sm text-black border rounded-[4px] px-3 py-2 focus:outline-none focus:border-yellow-400 focus:ring-0"
             type="text"
@@ -25,7 +25,7 @@
             v-model="args.name"
           />
         </div>
-        <div class="w-full">
+        <!-- <div class="w-full">
           <label for="name" class="text-sm">Price</label>
           <input
             class="w-full text-sm text-black border rounded-[4px] px-3 py-2 focus:outline-none focus:border-yellow-400 focus:ring-0"
@@ -35,8 +35,8 @@
             placeholder="price"
             v-model="args.price"
           />
-        </div>
-        <div class="w-full">
+        </div> -->
+        <!-- <div class="w-full">
           <label for="name" class="text-sm">Brand</label>
           <input
             class="w-full text-sm text-black border rounded-[4px] px-3 py-2 focus:outline-none focus:border-yellow-400 focus:ring-0"
@@ -45,7 +45,7 @@
             id=""
             placeholder="brand"
           />
-        </div>
+        </div> -->
         <div class="w-full">
           <label for="name" class="text-sm">Category</label>
           <select
@@ -153,20 +153,20 @@ export default {
     return {
       categories: [
         {
-          label: "Home Cinema",
-          value: "HomeCinema",
+          label: "Residential",
+          value: "Residential",
         },
         {
-          label: "Tv and Gaming",
-          value: "TVGaming",
+          label: "Hospitality",
+          value: "Hospitality",
         },
         {
-          label: "Music",
-          value: "Music",
+          label: "Commercial and Corporate",
+          value: "CommercialCorporate",
         },
         {
-          label: "Smart Home Technology",
-          value: "SmartHome",
+          label: "Consulting",
+          value: "Consulting",
         },
       ],
 
@@ -174,7 +174,6 @@ export default {
         image: "",
         name: "",
         details: "",
-        price: "",
         category: "",
       },
     };
@@ -200,7 +199,6 @@ export default {
     },
 
     async create() {
-      console.log(this.args.name);
       console.log(this.args.image, "rttyyuu");
 
       // this.args.image = this.args.image;
